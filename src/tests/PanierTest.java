@@ -71,7 +71,7 @@ public class PanierTest {
 		p1.ajouteOrange(o4);		
 				
 		assertEquals(p1.getPrix(), 2.5, 0.001);
-
+	
 	
 	}
 	

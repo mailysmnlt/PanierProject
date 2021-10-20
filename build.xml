@@ -22,5 +22,10 @@
 			<test name="tests.OrangeTest" outfile="result"/>
 			<test name="tests.PanierTest" outfile="result2"/>
 		</junit>
+		<junitreport todir="${basedir}">
+			<fileset dir="${basedir}">
+				<include name="result*.xml"/>
+			</fileset>
+		</junitreport>
 	</target>
 </project>
